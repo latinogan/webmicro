@@ -1,0 +1,444 @@
+.nav {
+  overflow: hidden;
+  background-color: #3e3c3c;
+  width: 1440px;
+  height: 72px;
+}
+
+.nav a {
+  overflow: hidden;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  position: relative;
+  left: 70%;
+  top: 10px;
+  width: 59px;
+  height: 20px;
+}
+
+.nav a:hover {
+  background-color: green;
+}
+
+.image1 {
+  overflow: hidden;
+  position: relative;
+  left: 70%;
+  top: 22px;
+}
+
+.image1:hover {
+  background-color: aquamarine;
+}
+
+.nombre {
+  position: relative;
+  left: 12%;
+  color: #fff;
+  bottom: 20px;
+  width: 92px;
+  height: 20px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.main {
+  background-color: #1c1a19;
+  width: 1440px;
+  height: 870px;
+  position: relative;
+  bottom: 67px;
+}
+
+.heythere {
+  width: 566px;
+  height: 160px;
+  font-family: crete round, sans-serif;
+  font-size: 50px;
+  position: relative;
+  left: 160px;
+  top: 150px;
+  color: #ff4500;
+}
+
+.software {
+  width: 566px;
+  height: 24px;
+  font-family: inter, serif;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  color: #fff;
+  position: relative;
+  top: 220px;
+  left: 170px;
+}
+
+.muñeco {
+  position: absolute;
+  left: 762px;
+  top: 20px;
+}
+
+.i {
+  position: relative;
+  bottom: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 40px;
+  position: relative;
+  left: 40px;
+  overflow: hidden;
+}
+
+.help {
+  width: 500px;
+  height: 123px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  left: 170px;
+  bottom: 150px;
+  overflow: hidden;
+  color: #f4f5f7;
+}
+
+.resent {
+  position: absolute;
+  left: 180px;
+  display: flex;
+  width: 1440px;
+  height: 52px;
+  font-family: Crete round, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 52px;
+}
+
+.portafolio {
+  width: 1440px;
+  height: 870px;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 180px;
+  top: 230px;
+  width: 90%;
+}
+
+.text {
+  color: #091e42;
+  width: 565px;
+  height: 140px;
+  font-family: inter, serif;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 28px;
+  order: 1;
+  position: relative;
+  bottom: 80px;
+}
+
+.multi {
+  position: relative;
+  bottom: 110px;
+  width: 400px;
+  font-family: Crete Round, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+}
+
+.post {
+  margin-left: 50px;
+  margin-right: 90px;
+  margin-top: 10px;
+  background-color: #bbaeae;
+}
+
+.botones {
+  width: 49px;
+  height: 40px;
+  position: relative;
+  bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 40px;
+}
+
+.h {
+  margin-left: 5px;
+}
+
+.h:hover {
+  background-color: #22b848;
+}
+
+.b {
+  margin-left: 5px;
+}
+
+.b:hover {
+  background-color: #22b848;
+}
+
+.r {
+  margin-left: 5px;
+}
+
+.r:hover {
+  background-color: #22b848;
+}
+
+.s {
+  background-color: #ff4500;
+  width: 130px;
+  position: absolute;
+  top: 80px;
+}
+
+.s:hover {
+  background-color: green;
+}
+
+.see {
+  width: 100px;
+  height: 20px;
+  left: 12px;
+  top: 12px;
+  color: #e5e5e5;
+  font-family: Inter, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gg {
+  width: 1440px;
+  height: 870px;
+  position: relative;
+  bottom: 50px;
+}
+
+.column {
+  float: left;
+  width: 369px;
+  padding: 10px;
+  padding-top: 300px;
+  padding-left: 70px;
+}
+
+.column2 {
+  float: left;
+  width: 369px;
+  padding: 10px;
+  padding-top: 75px;
+  padding-left: 70px;
+}
+
+.botton-left {
+  position: absolute;
+}
+
+.botoncol {
+  width: 367px;
+  height: 58px;
+  position: absolute;
+  bottom: 5px;
+  background-color: #f55800;
+}
+
+.botoncol:hover {
+  background-color: green;
+}
+
+.p1 {
+  color: #fff;
+  font-family: inter, serif;
+  height: 24px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.boton-left1 {
+  position: absolute;
+}
+
+.dashbord {
+  position: absolute;
+  bottom: 210px;
+  width: 337px;
+  height: 81px;
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.texto3 {
+  position: absolute;
+  bottom: 130px;
+  width: 300px;
+  font-family: inter, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  color: #fff;
+  margin-left: 20px;
+}
+
+.botones4 {
+  position: absolute;
+  bottom: 10px;
+  width: 250px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+.hh {
+  width: 1440px;
+  height: 80px;
+}
+
+.sos {
+  width: 450px;
+  height: 123px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  position: relative;
+  left: 170px;
+  top: 110px;
+  overflow: hidden;
+  color: #f4f5f7;
+}
+
+.muñeco1 {
+  width: 673px;
+  position: absolute;
+  left: 760px;
+}
+
+.about {
+  width: 566px;
+  height: 190px;
+  font-family: crete round, sans-serif;
+  font-size: 50px;
+  position: relative;
+  left: 160px;
+  bottom: 40px;
+  color: #ff4500;
+}
+
+.lenguage {
+  position: absolute;
+  top: 80px;
+  width: 114px;
+  height: 24px;
+  font-family: inter, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+}
+
+.main2 {
+  position: relative;
+  top: 340px;
+  background-color: #1c1a19;
+  width: 1440px;
+  height: 1150px;
+}
+
+.letras2 {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  width: 226px;
+
+  /* height: 24px; */
+  font-family: inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+
+  /* font-size: 32px; */
+  line-height: 44px;
+}
+
+.rectangle {
+  display: flex;
+  align-items: center;
+  width: 90px;
+}
+
+.row {
+  position: relative;
+  bottom: 160px;
+  height: 870px;
+}
+
+.letras4 {
+  width: 114px;
+  height: 24px;
+  font-family: inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.get {
+  position: relative;
+  top: 150px;
+  display: flex;
+  align-items: center;
+  left: 170px;
+  width: 161px;
+  height: 48px;
+  background-color: #f55800;
+}
+
+.bottong {
+  width: 137px;
+  height: 20px;
+  font-family: inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.get:hover {
+  background-color: #22b848;
+}
