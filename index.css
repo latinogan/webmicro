@@ -227,12 +227,9 @@
   font-size: 17px;
   line-height: 24px;
 }
-
-
-
 /* Clear floats after image containers */
 .row::after {
-  content: "";
+  
   clear: both;
   display: table;
 }
